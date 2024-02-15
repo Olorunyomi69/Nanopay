@@ -1,0 +1,29 @@
+.contact-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #554A97;
+    padding: 20px;
+    height: 700px;
+}
+
+.secondHalf > p{
+    color: #fff;
+    text-align: justify;
+}
+.secondHalf > h2{
+    font-size: 2em;
+    color: #fff;
+}
+
+.secondHalf{
+    width: 530px;
+}
+.contact-button{
+    padding: 15px 35px;
+    background-color: #554A97;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 10px;
+}

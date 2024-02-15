@@ -1,0 +1,57 @@
+.component-wrapper{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: #554A97;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 5%;
+}
+
+.part1{
+    width: 550px; 
+}
+
+.part1 > p {
+    color: #fff;
+}
+
+.part1 > h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.part2{
+    width: 380px;  
+ 
+}
+
+.part2 > img {
+    border: 10px solid #000;
+    border-radius: 50px;
+    border-bottom-style: none;
+    margin-bottom: -80px;
+}
+
+.app-advert{
+    display: flex;
+}
+
+.journey-apps {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    border-radius: 6px;
+    padding: 16px 13px;
+    margin: 12px;
+    width: 30%;
+}
+.apps, .journey-apps > p{
+    color: #fff;
+   
+    
+}

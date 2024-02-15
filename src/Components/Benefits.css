@@ -1,0 +1,37 @@
+.benefit-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+.benefit-grid{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.benefit-grid > h2 {
+    color: #4F4A9C;
+    font-size: 50px;
+    font-weight: 700;
+}
+benefit-grid > span{
+    color: #FB8700;
+}
+
+.text-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.text-box  > img{
+    height: 100px;
+
+}
+.Section1{
+    width: 30%;
+    justify-content: center;
+    padding: 10px;
+}

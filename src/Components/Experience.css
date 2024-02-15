@@ -1,0 +1,65 @@
+.heading > h1{
+    color: #6359A0;
+    font-size: 2.8em;
+    font-weight: 700;
+    margin: 0;
+    width: 600px;
+}
+
+.heading{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   
+}
+.experience-wrapper{
+    background-color: rgb(224, 224, 224, 0.2);
+    padding: 20px;
+}
+.experienceGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30em);
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+    margin-top: 50px; 
+
+}
+.Grid-wrapper > p{
+    line-height: 180%;
+    font-size: 18px;
+}
+
+.Grid-wrapper > h2{
+    color: #554A97;
+    font-size: 2.2em;
+
+}
+
+.Grid-wrapper{
+    border-radius: 20px;
+    background-color: rgb(224, 224, 224, 0.4);
+    padding: 10px;
+    width: 450px;
+    overflow: hidden;
+}
+
+
+
+.experience-images{
+    
+    border: 10px solid #1A191E;
+    border-bottom-style: none;
+    border-radius: 50px;
+    align-self: end;
+    grid-column: 1/-1;
+    
+}
+
+.secondary-image-style{
+    margin-top: 95px;
+    margin-bottom: 0;
+    width: 450px;
+        
+}

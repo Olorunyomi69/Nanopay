@@ -1,0 +1,40 @@
+.exclusive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-wrapper > h1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.section-wrapper > h1{
+    color: #4F4A9C;
+    font-size: 2.8em;
+
+}
+
+.exclusive-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 45px;
+
+}
+
+.first-half{
+    width: 30%;
+
+}
+
+.first-half > p{
+    width: 23em;
+}
+
+.first-half > img{
+    width: 30px;
+    padding: 10px;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    background-color: rgba(85, 74, 151, 0.10);
+}
