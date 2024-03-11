@@ -9,7 +9,10 @@
 }
 
 .secondHalf > p{
-    color: #fff;
+    color:rgba(255, 255, 255, 0.6);
+
+    font-weight: 500;
+    line-height: 24px;
     text-align: justify;
 }
 .secondHalf > h2{
@@ -20,10 +23,42 @@
 .secondHalf{
     width: 530px;
 }
-.contact-button{
+
+.contact-button {
     padding: 15px 35px;
-    background-color: #554A97;
-    border: 2px solid #fff;
-    color: #fff;
-    margin-top: 10px;
-}
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #554A97;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 10px #554A97, inset 0 0 10px #fff;
+    margin-top: 15px;
+  }
+  
+  .contact-button:hover {
+    animation: a 0.5s 1 linear;
+  }
+  
+  @keyframes a {
+    0% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    25% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    50% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    75% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }

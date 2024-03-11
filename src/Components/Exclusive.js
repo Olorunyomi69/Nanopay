@@ -28,7 +28,7 @@ const Exclusive = () => {
                         <p>{items.text}</p>
                     </div>
                     <div className= 'second-half'>
-                        <img src={items.image} alt='description'/>
+                        <img src={items.image} alt='description' loading='lazy'/>
                     </div>
                 </div>
 

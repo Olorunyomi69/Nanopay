@@ -16,7 +16,7 @@ const Journey = () => {
             <h1>Your Journey Starts Here</h1>
             <p>Join Nanopay today and embark on a journey where modern banking meets unmatched convenience.
              Empower your financial endeavors, break down barriers and redefine what's possible.</p>
-            <div className='app-advert'>
+            <div className='app-advert1'>
              {
               appAdvert.map((items,idx) => {
                 return(

@@ -1,19 +1,7 @@
-.App{
-    max-width: 2500px;
-    display: block;
-    align-items: center;
-   
-}
-
-body{
-    display: flex;
-    justify-content: center;
-}
-
 .header-pad{
     justify-content: center;
     background-color: #393170;
-    background-image: url('./images/headerimg.png');
+    background-image: url('../../images/headerimg.png');
     border-radius: 20px;
     margin: 20px;
     padding: 20px 10px 100px;

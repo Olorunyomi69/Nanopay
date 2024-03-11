@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 60px;
+    padding: 0.6rem 3.3rem;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), rgba(58, 54, 116, 0.6);
-    border-radius: 60px;
-    margin: 20px;
+    border-radius: 3.4rem;
+    margin: 1.2rem;
 }
 
 .main-nav > ul{
@@ -18,7 +18,7 @@
 }
 
 .Nav-wrapper  a{
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #fff;
     font-weight: 700;
     text-decoration: none;
@@ -28,8 +28,14 @@
     padding: 20px 35px;
     color: #fff;
     border: 0.2px solid #fff;
-    border-radius: 38px;
+    border-radius: 38px 0 38px 38px;
     background: #5B5197;
+    transition: 0.5s;
+
+}
+
+.header-button:hover{
+    border-radius: 38px;
 }
 
 /* Responsive styles */
@@ -51,7 +57,7 @@
 
 @media (max-width: 480px) {
     a {
-        font-size: 16px;
+        font-size: 1rem;
     }
     .header-button {
         padding: 8px 15px;

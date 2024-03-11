@@ -1,0 +1,28 @@
+.about-wrapper{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 0;
+    width: 70%;
+    max-width: 1500px;
+}
+.about-wrapper h1{
+    margin: 0;
+    padding: 0;
+}
+.about-grid {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px;
+  height: 700px;
+}
+
+.about-grid p {
+  max-width: 550px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: justify;
+  color: #817D7D;
+}

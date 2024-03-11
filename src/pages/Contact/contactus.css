@@ -1,0 +1,26 @@
+.contactus-text{
+    max-width: 600px;
+    height: 100%;
+    background-color: #6157A026;
+    border-radius: 30px;
+    padding: 15px 40px;
+}
+
+.contactus-text h1{
+    font-size: 42px;
+}
+
+.contactus-text p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.contactus-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 500px;
+    background-color: #fff;
+    padding: 25px;
+
+}

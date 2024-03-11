@@ -47,7 +47,7 @@ const Footer = () => {
                 contactInfo.map((items, idx) => {
                     return (
                         <div className='contact-info' key={idx}>
-                            <img src={items.icon} alt='icon' />
+                            <img src={items.icon} alt='icon' loading='lazy'/>
                             <p>{items.text}</p>
                         </div>
                     )

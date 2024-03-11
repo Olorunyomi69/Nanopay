@@ -1,28 +1,35 @@
 import './App.css';
-import Header from './Components/Header';
-import Features from './Components/Features';
-import Experience from './Components/Experience';
-import Benefits from './Components/Benefits';
-import Exclusive from './Components/Exclusive';
-import Journey from './Components/Journey';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer'
+import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom'
+import { Home, RootLayout, About, ContactUs, Faq } from './pages';
+
+// import Navbar from './Components/Navbar';
+// import Header from './Components/Header'
+// import Footer from './Components/Footer'
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+<Route path="/" element= {<RootLayout/>}>
+    <Route path="/" element={<Home />} />
+    <Route path="about" element={<About />} />
+    <Route path="Faq" element={<Faq />} />
+    <Route path="contact" element={<ContactUs />} />
+    </Route>
+  )
+);
+
 
 
 function App() {
   return (
-    <div className="App">
-    <Header/>
-    <Features/>
-    <Experience/>
-    <Benefits/>
-    <Exclusive/>
-    <Journey />
-    <Contact/>
-    <Footer/> 
+   
+<RouterProvider router = {router} />
 
-      </div>
   );
 }
 
 export default App;
+
+//Nanopay is a mini fintech project intended to leverage the use of crypto 
+//currency to break barriers of payment errors, give easy acces to users via its UI simplicity
+// as well as an opportunity to invest and get up to 25% ROI per annum and 5% cash back on every transactions  

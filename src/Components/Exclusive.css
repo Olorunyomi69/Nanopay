@@ -28,7 +28,9 @@
 }
 
 .first-half > p{
-    width: 23em;
+    width: 23rem;
+    font-weight: 500;
+    line-height: 32.4px;
 }
 
 .first-half > img{

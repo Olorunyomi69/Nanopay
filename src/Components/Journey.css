@@ -14,8 +14,10 @@
     width: 550px; 
 }
 
-.part1 > p {
+.component-wrapper  p {
     color: #fff;
+    font-weight: 500;
+    line-height: 32.4px;
 }
 
 .part1 > h1{
@@ -30,26 +32,41 @@
 }
 
 .part2 > img {
-    border: 10px solid #000;
+    border: 10px solid #171717;
     border-radius: 50px;
     border-bottom-style: none;
     margin-bottom: -80px;
 }
 
-.app-advert{
+.app-advert1{
     display: flex;
+    justify-content: stretch;
 }
 
-.journey-apps {
+
+.journey-apps{
     display: flex;
+    max-width: 200px;
+    padding: 0.8rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: middle;
     align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    gap: 0.75rem;
+    margin: 12px;
     color: #fff;
     background-color: #000;
-    border-radius: 6px;
-    padding: 16px 13px;
-    margin: 12px;
-    width: 30%;
+    cursor: pointer;
+    transition: all .3s ease;
 }
+
+.journey-apps:hover {
+    transform: scale(1.08);
+  }
 .apps, .journey-apps > p{
     color: #fff;
    

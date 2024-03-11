@@ -33,7 +33,7 @@ const Experience = () => {
         <div className= 'Grid-wrapper' key={idx}> 
           <h2> {items.header} </h2>        
           <p> {items.text} </p> 
-          <img className= {`${ idx === 1 ? 'secondary-image-style' : 'experience-images'}`} src={items.images} alt='phone' />
+          <img className= {`${ idx === 1 ? 'secondary-image-style' : 'experience-images'}`} src={items.images} alt='phone' loading='lazy'/>
         </div>
        ) 
 
@@ -61,4 +61,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Experience;

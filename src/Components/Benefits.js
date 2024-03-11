@@ -23,7 +23,7 @@ const Benefits = () => {
         benefitText.map((items, idx) => {
             return(
                 <div className='text-box' key = {idx}>
-                    <img src= {items.image} alt='benefit' />
+                    <img src= {items.image} alt='benefit' loading='lazy' />
                     <div>
                         <h3>{items.title}</h3>
                         <p>{items.Text}</p>

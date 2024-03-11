@@ -3,7 +3,7 @@ import logo from '../images/Nanopay1.png'
 import './Navbar.css'
 
 const Navigation = [
-    {title: 'Home', Path: 'home'},
+    {title: 'Home', Path: '/'},
     {title: 'About Us', Path: 'about'},
     {title: 'FAQ', Path: 'faq'},
     {title: 'Contact Us', Path: 'contact'},

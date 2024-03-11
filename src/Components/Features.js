@@ -22,7 +22,7 @@ const Features = () => {
             featureGrid.map((item,idx) => {
                 return(
                     <div className='wrapper' key={idx}>
-                        <img src= {item.image} alt='icon'/>
+                        <img src= {item.image} alt='icon' loading='lazy'/>
                         <h2>{item.header}</h2>
                         <p>{item.text}</p>
                     </div>

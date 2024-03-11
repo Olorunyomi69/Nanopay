@@ -1,31 +1,45 @@
-.Header-wrapper{
-    justify-content: center;
-    background-color: #393170;
-    background-image: url('../images/headerimg.png');
-    border-radius: 20px;
-    margin: 20px;
-    padding: 20px 10px 100px;
-    background-size: cover;
-    transition: background-size 0.3s ease-in-out;
-} 
-.Header-wrapper:hover{
-    background-size: 110%;
-}
 .head > h2{
     background-color: #fff;
     border-radius: 12px;
-    padding: 20px 30px 20px 15px;
+    padding: 16px 25px 16px 10px;
 }
+
+#showcase h1, #showcase h2, #showcase > span{
+    position: relative;
+    animation: heading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#showcase p {
+    position: relative;
+    animation-name: content;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes content {
+    0%{left: -1000% }
+    100%{left: 0;}
+}
+
+@keyframes heading {
+    0%{top: -100px;}
+    100%{top: 0;}
+}
+
 .head-span{
     background-color: #393070;
     color: #FFD167;
     border-radius: 15px;
-    padding: 10px 20px;
+    padding: 8px 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .head > h1{
     color: #fff;
-    font-size: calc(1.5em + 1.5vw);
+    font-size: calc(1.5rem + 1.5vw);
     font-weight: 900;
     max-width: 40%;
     margin: 20px 0;
@@ -39,7 +53,7 @@
 }
 .head > p{
     text-align: center;
-    font-size: calc(1em + 0.5vw);
+    font-size: calc(1rem + 0.5vw);
     max-width: 60%;
     line-height: 200%;
     color: #fff;
@@ -53,12 +67,42 @@
     display: flex;
     align-items: center;
     background-color: #6359A0;
-    border: 2px solid #fff;
     border-radius: 6px;
+    vertical-align: middle;
     padding: 16px 13px;
     margin: 12px;
-    width: 10%;
-    
+    gap: 0.2rem;
+    max-width: 200px;
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 2s;  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+}
+.apps:hover {
+    color: transparent;
+  }
+  
+  .apps:hover img {
+    left: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .apps:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(140, 32, 212);
+  }
+
+@keyframes btn {
+    0%{opacity: 0}
+    100%{opacity: 1;}
 }
 .apps > p{
     color: #fff;
