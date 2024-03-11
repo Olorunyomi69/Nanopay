@@ -1,5 +1,5 @@
  './App.css';
- import {Features, Experience, Benefits, Exclusive, Journey, Contact } from '../../Components'
+ import {Features, Experience, Benefits, Exclusive, Contact } from '../../Components'
 
 
 
@@ -10,7 +10,7 @@ function Home() {
     <Experience/>
     <Benefits/>
     <Exclusive/>
-    <Journey />
+    {/* <Journey /> */}
     <Contact/>
     
 

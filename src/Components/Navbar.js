@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom'
 import logo from '../images/Nanopay1.png'
-import './Navbar.css'
+import './Navbar.css';
 
 const Navigation = [
     {title: 'Home', Path: '/'},
@@ -21,9 +22,9 @@ const Navbar = () => {
         <ul className='nav-list'>
             {Navigation.map((items,idx) => {
                 return (
-                    <li key={idx}> <a href= {items.Path}>
+                    <li key={idx}> <Link to = {items.Path}>
                         {items.title}
-                    </a></li>
+                    </Link></li>
                 )
             })}
         </ul>
